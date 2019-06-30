@@ -9,10 +9,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <DIV id="B-R">
-        <input type="text" placeholder="scrie ceva" id="inner">
-        <a id="ninner" onclick="on()">Afiseaza</a>
-    </DIV>
+    <div id="div">
+        <input type="text" placeholder="Scrie ceva..." id="inner">
+        <input type="button" id="ninner" onclick="on()" value="Afiseaza">
+    </div>
     <div id="non"></div>
+    <script>
+    document.getElementById("inner").addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+      event.preventDefault();
+      document.getElementById("ninner").click();
+    }
+  });
+    </script>
 </body>
 </html>

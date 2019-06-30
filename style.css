@@ -1,29 +1,39 @@
 body{
     margin:0;
     padding:0;
+    text-align: center;
+    margin-top:75px;
+    background:aliceblue;
 }
 #non{
     word-wrap: break-word;
 }
-#B-R{
+#div{
+    background:linear-gradient(to right, lightgreen, lightblue);
     position: fixed;
-    top:15px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border:1px solid black;
-    padding:0;
+    width:100%;
+    top:0;
+    padding:10px;
 }
-#inner, #ninner{
+#inner{
+    color:blue;
     border:none;
+    background: white;
+    padding:10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 #ninner{
-    background:none;
-    padding-right:5px;
+    margin-left:-5px;
+    padding:10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     color:blue;
-    cursor:pointer;
-    text-decoration: none;
+    background: cyan;
+    border:none;
+    cursor: pointer;
 }
-
-#inner{
-    padding-left:5px;
+#ninner:hover{
+    background:rgb(67, 67, 255);
+    color:white;
 }
