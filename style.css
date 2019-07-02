@@ -9,10 +9,10 @@ body{
     word-wrap: break-word;
 }
 #div{
-    background:linear-gradient(to right, lightgreen, lightblue);
     position: fixed;
     width:100%;
     top:0;
+    background:linear-gradient(to right, lightgreen, lightblue);
     padding:10px;
 }
 #inner{
@@ -37,3 +37,121 @@ body{
     background:rgb(67, 67, 255);
     color:white;
 }
+#red{
+    height:25px;
+    width:25px;
+    left:0;
+    top:0;
+    margin-left:10px;
+    border-radius: 50%;
+    display:inline;
+    background: red;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#blue{
+    height:25px;
+    width:25px;
+    left:0;
+    top:0;
+    margin-left:50px;
+    border-radius: 50%;
+    display:inline;
+    background: blue;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#green{
+    height:25px;
+    width:25px;
+    left:0;
+    top:0;
+    margin-left:90px;
+    border-radius: 50%;
+    display:inline;
+    background: green;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#maro{
+    height:25px;
+    width:25px;
+    left:0;
+    top:0;
+    margin-left:130px;
+    border-radius: 50%;
+    display:inline;
+    background: brown;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#yellow{
+    height:25px;
+    width:25px;
+    left:0;
+    top:0;
+    margin-left:170px;
+    border-radius: 50%;
+    display:inline;
+    background: yellow;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#pink{
+    height:25px;
+    width:25px;
+    left:0;
+    top:0;
+    margin-left:210px;
+    border-radius: 50%;
+    display:inline;
+    background: pink;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#black{
+    height:25px;
+    width:25px;
+    left:0;
+    top:0;
+    margin-left:250px;
+    border-radius: 50%;
+    display:inline;
+    background: black;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#non{
+    vertical-align: middle;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+}
+#lefts{
+    display: none;
+}
+@media only screen and (max-width: 775.5px) {
+    #left{
+        display: none;
+    }
+    #lefts{
+        display: inline;
+        text-align: center;
+    }
+    #div{
+        padding-bottom:60px;
+    }
+    #non{
+        margin-top:115px;
+    }
+    #red, #maro, #green, #blue, #yellow, #pink, #black{
+        top:7.5%;
+    }
+  }

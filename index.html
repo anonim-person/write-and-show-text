@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Scrie si afiseaza</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="div">
-        <input type="text" placeholder="Scrie ceva..." id="inner">
-        <input type="button" id="ninner" onclick="on()" value="Afiseaza">
+        <div id="left">
+            <p id="red" onclick="red()"></p>
+            <p id="blue" onclick="blue()"></p>
+            <p id="green" onclick="green()"></p>
+            <p id="maro" onclick="maro()"></p>
+            <p id="yellow" onclick="yellow()"></p>
+            <p id="pink" onclick="pink()"></p>
+            <p id="black" onclick="black()"></p>
+          </div>
+            <input type="text" placeholder="Scrie ceva..." id="inner">
+            <input type="button" id="ninner" onclick="on()" value="Afiseaza">
     </div>
+  </div>
     <div id="non"></div>
     <script>
     document.getElementById("inner").addEventListener("keyup", function(event) {
@@ -22,5 +32,14 @@
     }
   });
     </script>
+     <div id="lefts">
+        <p id="red" onclick="red()"></p>
+        <p id="blue" onclick="blue()"></p>
+        <p id="green" onclick="green()"></p>
+        <p id="maro" onclick="maro()"></p>
+        <p id="yellow" onclick="yellow()"></p>
+        <p id="pink" onclick="pink()"></p>
+        <p id="black" onclick="black()"></p>
+      </div>
 </body>
 </html>
