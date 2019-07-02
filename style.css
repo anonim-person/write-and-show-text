@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     text-align: center;
-    margin-top:75px;
+    margin-top:100px;
     background:aliceblue;
 }
 #non{
@@ -17,6 +17,7 @@ body{
 }
 #inner{
     color:blue;
+    margin-left:-20px;
     border:none;
     background: white;
     padding:10px;
@@ -128,30 +129,140 @@ body{
     cursor: pointer;
     position:fixed;
 }
+#purple{
+    height:25px;
+    width:25px;
+    right:0;
+    top:0;
+    margin-right:10px;
+    border-radius: 50%;
+    display:inline;
+    background: purple;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#grey{
+    height:25px;
+    width:25px;
+    right:0;
+    top:0;
+    margin-right:50px;
+    border-radius: 50%;
+    display:inline;
+    background: grey;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#white{
+    height:25px;
+    width:25px;
+    right:0;
+    top:0;
+    margin-right:90px;
+    border-radius: 50%;
+    display:inline;
+    background: white;
+    border: 3px solid black;
+    cursor: pointer;
+    position:fixed;
+}
+#orange{
+    height:25px;
+    width:25px;
+    right:0;
+    top:0;
+    margin-right:130px;
+    border-radius: 50%;
+    display:inline;
+    background: orange;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#beige{
+    height:25px;
+    width:25px;
+    right:0;
+    top:0;
+    margin-right:170px;
+    border-radius: 50%;
+    display:inline;
+    background: beige;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#golden{
+    height:25px;
+    width:25px;
+    right:0;
+    top:0;
+    margin-right:210px;
+    border-radius: 50%;
+    display:inline;
+    background: goldenrod;
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
+#amethyst{
+    height:25px;
+    width:25px;
+    right:0;
+    top:0;
+    margin-right:250px;
+    border-radius: 50%;
+    display:inline;
+    background: rgb(59, 134, 156);
+    border: 3px solid white;
+    cursor: pointer;
+    position:fixed;
+}
 #non{
     vertical-align: middle;
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-style: italic;
 }
-#lefts{
+#lefts, #bacs{
     display: none;
 }
-@media only screen and (max-width: 775.5px) {
+@media only screen and (max-width: 800px) {
+    #right{
+        display:none;
+    }
     #left{
         display: none;
     }
-    #lefts{
+    #lefts, #bacs{
         display: inline;
         text-align: center;
     }
     #div{
-        padding-bottom:60px;
+        padding-bottom:115px;
     }
     #non{
-        margin-top:115px;
+        margin-top:180px;
+        padding-left:15px;
+        padding-right:15px;
     }
     #red, #maro, #green, #blue, #yellow, #pink, #black{
         top:7.5%;
+    }
+    #bacs{
+        position:fixed;
+        margin-left:-80px;
+        background:white;
+        color:blue;
+        text-decoration: none;
+        border-radius: 25px;
+        padding:7.5px;
+        margin-top:65px;
+    }
+    #bacs:hover{
+        color:white;
+        background:blue;
     }
   }
